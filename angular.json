@@ -25,9 +25,29 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/libs/chartist/dist/chartist.min.css",
+              "src/assets/extra-libs/c3/c3.min.css",
+              "src/assets/extra-libs/jvector/jquery-jvectormap-2.0.2.css",
+              "src/assets/dist/css/style.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/libs/jquery/dist/jquery.min.js",
+              "src/assets/libs/popper.js/dist/umd/popper.min.js",
+              "src/assets/libs/bootstrap/dist/js/bootstrap.min.js",
+              "src/assets/dist/js/app.min.js",
+              "src/assets/dist/js/app.init.horizontal.js",
+              "src/assets/dist/js/app-style-switcher.horizontal.js",
+              "src/assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js",
+              "src/assets/extra-libs/sparkline/sparkline.js",
+              "src/assets/dist/js/waves.js",
+              "src/assets/dist/js/sidebarmenu.js",
+              "src/assets/dist/js/custom.js",
+              "src/assets/libs/chartist/dist/chartist.min.js",
+              "src/assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js",
+              "src/assets/extra-libs/c3/d3.min.js",
+              "src/assets/extra-libs/c3/c3.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -87,12 +107,35 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/libs/chartist/dist/chartist.min.css",
+              "src/assets/extra-libs/c3/c3.min.css",
+              "src/assets/extra-libs/jvector/jquery-jvectormap-2.0.2.css",
+              "src/assets/dist/css/style.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/libs/jquery/dist/jquery.min.js",
+              "src/assets/libs/popper.js/dist/umd/popper.min.js",
+              "src/assets/libs/bootstrap/dist/js/bootstrap.min.js",
+              "src/assets/dist/js/app.min.js",
+              "src/assets/dist/js/app.init.horizontal.js",
+              "src/assets/dist/js/app-style-switcher.horizontal.js",
+              "src/assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js",
+              "src/assets/extra-libs/sparkline/sparkline.js",
+              "src/assets/dist/js/waves.js",
+              "src/assets/dist/js/sidebarmenu.js",
+              "src/assets/dist/js/custom.js",
+              "src/assets/libs/chartist/dist/chartist.min.js",
+              "src/assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js",
+              "src/assets/extra-libs/c3/d3.min.js",
+              "src/assets/extra-libs/c3/c3.min.js"
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
